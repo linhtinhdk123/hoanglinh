@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Screen
+{width: 1200px;
+height: auto;
+background-color:blanchedalmond ;}
+
+.topbar
+{width: 1200px;
+height: 58px;
+background-color:blanchedalmond;}
+
+.topbar ul
+{list-style: none;}
+
+.topbar ul li
+{float: right;
+padding:8px;
+position: relative;
+background-color: blanchedalmond;
+border-radius: 10px;
+margin: 15px;
+height: 30px;
+box-sizing: border-box;}
+
+.topbar ul li a
+{text-decoration: none;}
+
+ul li:hover
+{background-color: firebrick;}
+
+ul li ul
+{position: absolute;
+left: 0px;
+top: 30px;
+visibility: hidden;
+background-color: blanchedalmond;
+padding: 0px;
+border-radius: 10px;}
+
+ul li ul li
+{width: 70px;
+margin: 0px;}
+
+ul li:hover ul
+{visibility: visible;}
+
+.logo
+{width: 100px;
+height: 40px;
+margin: 8px 20px;
+border-radius: 15px;
+float: left;}
+
+.menubar
+{width: 100px;
+height: 20px;
+background-color:chocolate;
+border-radius: 15px;
+float: right;}
+
+.Banner1
+{width: 1200px;
+height: 500px;
+background-color: maroon;
+text-align: center;
+padding: 180px;
+box-sizing: border-box;
+color: blanchedalmond;}
+
+.Banner2
+{width: 1200px;
+height: 500px;
+background-color: blanchedalmond;
+padding: 80px;
+box-sizing: border-box;
+border-top: solid #800000;
+text-align: center;
+color: maroon;}
+
+.Vuong2
+{width: 300px;
+height: 300px;
+float: left;
+margin: 20px;
+text-align: center;}
+
+.Tron
+{width: 100px;
+height: 100px;
+background-color: maroon;
+float: left;
+margin: 20px 100px;
+border-radius: 50px;}
+
+.Vuong1
+{width: 300px;
+height: 300px;
+float: left;
+margin: 20px;
+text-align: center;}
+
+.Vuong3
+{width: 500px;
+height: 300px;
+float: left;
+margin: 10px;
+text-align: left;
+padding-top: 229px;}
+
+.Vuong4
+{width: 500px;
+height: 300px;
+float: left;
+margin: 10px;
+text-align: center;
+background-color: maroon;}
+
+.Search_button
+{width: 100px;
+height: 40px;
+margin: 10px 380px;
+background-color:blanchedalmond;
+border-radius: 15px;
+padding:10px;
+box-sizing: border-box;}
+
+.Search_button a
+{text-decoration: none;}
+
+.New_Arrival
+{width:1500px;
+height: 58px;
+text-align: center;
+margin-left: -230px;
+color: black;}
+
+.Vuongnho
+{width: 300px;
+height: 100px;
+background-color: maroon;
+float: left;
+margin: 20px 5px;}
+
+
